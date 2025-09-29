@@ -16,13 +16,9 @@
 .page-width {
     width: 100%;
     max-width: 1600px;
-    /* ya koi value jo design ke hisab se sahi rahe */
     margin: 0 auto;
-    /* horizontal center karne ke liye */
     padding: 0 16px;
-    /* thodi padding dono sides pe, mobile par bhi thoda gap rahe */
     box-sizing: border-box;
-    /* padding & border ko width ke andar include kare */
 }
 
 .text-size {
