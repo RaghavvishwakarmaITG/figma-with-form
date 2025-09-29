@@ -4,9 +4,6 @@
     list-style: none;
 }
 
-/* body {
-    font-family: 'Nunito', sans-serif;
-} */
 
 .font-nunito {
     font-family: 'nunito', sans-serif;
@@ -17,10 +14,18 @@
 }
 
 .page-width {
-    max-width: calc(1650px - 50px);
-    margin: auto;
+    width: 100%;
+    max-width: 1600px;
+    /* ya koi value jo design ke hisab se sahi rahe */
+    margin: 0 auto;
+    /* horizontal center karne ke liye */
+    padding: 0 16px;
+    /* thodi padding dono sides pe, mobile par bhi thoda gap rahe */
+    box-sizing: border-box;
+    /* padding & border ko width ke andar include kare */
 }
-.text-size{
+
+.text-size {
     font-size: large;
 }
 
@@ -495,13 +500,16 @@ label {
     flex-direction: column;
     margin: 0;
 }
-.news-info h2{
+
+.news-info h2 {
     font-size: 45px;
     font-weight: 100;
 }
+
 .news-info {
     line-height: 2;
 }
+
 .other-info label {
     margin: 0;
     padding: 10px;
@@ -558,7 +566,8 @@ button#sendbtn:hover {
 .newsletter p {
     margin-bottom: 20px;
 }
-.h2font{
+
+.h2font {
     font-size: 20px;
 }
 
