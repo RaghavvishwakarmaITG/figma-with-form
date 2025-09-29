@@ -634,6 +634,7 @@ img.logo {
     max-width: 560px;
     width: 80%;
     margin: 0;
+    position: relative;
 }
 
 .newsletter-input {
@@ -653,7 +654,7 @@ img.logo {
 }
 
 .subscribe-btn {
-    padding: 14px 30px;
+    padding: 15px 30px;
     position: absolute;
     background-color: #e60000;
     color: white;
@@ -662,8 +663,10 @@ img.logo {
     border: none;
     border-radius: 30px;
     cursor: pointer;
+    transform: translate(-50%, -50%);
     transition: background-color 0.3s ease;
-    right: 7%;
+    top: 50%;
+    left: 100%;
 }
 
 .subscribe-btn:hover {
