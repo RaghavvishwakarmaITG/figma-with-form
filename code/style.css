@@ -910,14 +910,12 @@ img.logo {
     }
 }
 
-/* Mobile Portrait (below 480px) */
 @media (max-width: 480px) {
     .page-width {
         padding: 0 5px;
     }
 
     .nav-link {
-        flex-direction: column;
         gap: 10px;
     }
 
