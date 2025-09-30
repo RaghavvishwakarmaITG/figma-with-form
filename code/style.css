@@ -549,7 +549,7 @@ button#sendbtn:hover {
 
 .newsletter {
     display: flex;
-    gap: 315px;
+    gap: 100px;
     align-items: center;
 }
 
@@ -635,8 +635,8 @@ img.logo {
 
 .subscribe-section {
     display: inline-flex;
-    max-width: 520px;
-    width: 70%;
+    max-width: 500px;
+    width: 50%;
     margin: 0;
     position: relative;
 }
